@@ -7,10 +7,10 @@ api: [3.0.0]
 softdepend: ["AntiSpamPro"]
 extensions: [sqlite3]
 commands:
-  f:
-    description: use /f help for all parameters
-    permission: f.command
+  t:
+    description: utiliser /t help pour tous les paramètres
+    permission: t.command
 permissions:
-  f.command:
+  t.command:
     default: true
-    description: "Allow use of all faction commands"
+    description: "Autoriser l'utilisation de toutes les commandes de tribus"
